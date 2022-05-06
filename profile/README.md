@@ -125,4 +125,6 @@ This list is not full and updating each day
 
 [Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
 
-[Contact us](https://meshinspector.github.io/ReportIssue/)
+[Email us](mailto:support@meshinspector.com)
+
+[Contact us anonymously](https://meshinspector.github.io/ReportIssue/)
