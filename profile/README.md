@@ -5,7 +5,21 @@ There is a multitude of general purpose libraries which deal with 3D data. Some 
 
  - [MeshLib](#meshlib) 3d processing library
  - [MeshInspector](#meshinspector) 3d processing application, based on MeshLib
- - [Useful links](#useful-links)
+
+# Useful links
+[MeshInspector web-browser version](https://demo.meshinspector.com/)
+
+[Slides about MeshLib and MeshInspector](https://docs.google.com/presentation/d/1D0Ry6SE2J25PBtO_G9ZIp1cavoX2wyyY8jgvtjeayC4/edit?usp=sharing)
+
+[MeshInspector YouTube channel](https://www.youtube.com/channel/UCv9bNhwoVDPaLPPyWJeVPNg)
+
+[MeshInspector Releases for Windows/Linux/Mac](https://github.com/MeshInspector/MeshInspector/releases)
+
+[Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
+
+[Email us](mailto:support@meshinspector.com)
+
+[Contact us anonymously](https://meshinspector.github.io/ReportIssue/)
 
 # MeshLib
 [MeshLib](https://github.com/MeshInspector/MeshLib) is open source 3d procesing library.
@@ -113,18 +127,3 @@ This list is not full and updating each day
  - Static textures.
 ### Order independed transparency
 ### Convenient for mesh algorithms debugging, showing mesh edges, boundaries.
-
-# Useful links
-[MeshInspector web demo](https://demo.meshinspector.com/)
-
-[MeshInspector releases page](https://github.com/MeshInspector/MeshInspector/releases)
-
-[Our YouTube channel with updates](https://www.youtube.com/channel/UCv9bNhwoVDPaLPPyWJeVPNg)
-
-[Slides](https://docs.google.com/presentation/d/1D0Ry6SE2J25PBtO_G9ZIp1cavoX2wyyY8jgvtjeayC4/edit?usp=sharing)
-
-[Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
-
-[Email us](mailto:support@meshinspector.com)
-
-[Contact us anonymously](https://meshinspector.github.io/ReportIssue/)
