@@ -126,4 +126,6 @@ This list is not full and updating each day
  - Triangles color map,
  - Static textures.
 ### Order independed transparency
-### Convenient for mesh algorithms debugging, showing mesh edges, boundaries.
+### Convenient for mesh algorithms debugging, showing mesh edges, boundaries
+### Computed-tomography reconstruction
+An ability to reconstruct voxel object from a set of projection images (radiographs) and known cone-beam CT scanner geometry parameters. Nvidia GPU is utilized via CUDA technology for the best reconstruction performance.
