@@ -22,6 +22,8 @@ There is a multitude of general purpose libraries which deal with 3D data. Some 
 
 [Contact us anonymously](https://meshinspector.github.io/ReportIssue/)
 
+[Follow us on LinkedIn](https://www.linkedin.com/company/meshinspector/)
+
 # MeshLib
 [MeshLib](https://github.com/MeshInspector/MeshLib) is open source 3d procesing library.
 
