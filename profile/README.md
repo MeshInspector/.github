@@ -20,7 +20,7 @@ There is a multitude of general purpose libraries which deal with 3D data. Some 
 
 [MeshInspector Releases for Windows/Linux/Mac](https://meshinspector.com/download/)
 
-[Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
+[MeshLib Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
 
 [Email us](mailto:support@meshinspector.com)
 
