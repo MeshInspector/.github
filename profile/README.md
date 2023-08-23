@@ -8,6 +8,8 @@ There is a multitude of general purpose libraries which deal with 3D data. Some 
  - [MeshInspector](#meshinspector) 3d processing application, based on MeshLib
 
 # Useful links
+[MeshInspector website](https://meshinspector.com/)
+
 [MeshInspector web-browser version](https://app.meshinspector.com/)
 
 [G-Code visualizer](https://gcode.meshinspector.com/)
@@ -16,7 +18,7 @@ There is a multitude of general purpose libraries which deal with 3D data. Some 
 
 [MeshInspector YouTube channel](https://www.youtube.com/channel/UCv9bNhwoVDPaLPPyWJeVPNg)
 
-[MeshInspector Releases for Windows/Linux/Mac](https://github.com/MeshInspector/MeshInspector/releases)
+[MeshInspector Releases for Windows/Linux/Mac](https://meshinspector.com/download/)
 
 [Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
 
