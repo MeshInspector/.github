@@ -10,23 +10,13 @@ There is a multitude of general purpose libraries which deal with 3D data. Some 
 # Useful links
 [MeshInspector website](https://meshinspector.com/)
 
-[MeshInspector web-browser version](https://app.meshinspector.com/)
+[MeshInspector web-browser version](https://meshinspector.com/)
 
-[G-Code visualizer](https://gcode.meshinspector.com/)
-
-[Slides about MeshLib and MeshInspector](https://docs.google.com/presentation/d/1D0Ry6SE2J25PBtO_G9ZIp1cavoX2wyyY8jgvtjeayC4/edit?usp=sharing)
-
-[MeshInspector YouTube channel](https://www.youtube.com/channel/UCv9bNhwoVDPaLPPyWJeVPNg)
-
-[MeshInspector Releases for Windows/Linux/Mac](https://meshinspector.com/download/)
+[Download MeshInspector (Windows/Linux/Mac)](https://meshinspector.com/download/)
 
 [MeshLib Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
 
-[Email us](mailto:support@meshinspector.com)
-
-[Contact us anonymously](https://meshinspector.github.io/ReportIssue/)
-
-[Follow us on LinkedIn](https://www.linkedin.com/company/meshinspector/)
+[Submit an issue](https://meshinspector.github.io/ReportIssue/)
 
 # MeshLib
 [MeshLib](https://github.com/MeshInspector/MeshLib) is open source 3d procesing library.
