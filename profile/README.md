@@ -14,7 +14,7 @@ There is a multitude of general purpose libraries which deal with 3D data. Some 
 
 [Download MeshInspector (Windows/Linux/Mac)](https://meshinspector.com/download/)
 
-[MeshLib Documentation](https://meshinspector.github.io/MeshLib/html/index.html)
+[MeshLib Documentation](https://meshinspector.com/MeshLib/doc)
 
 [Submit an issue](https://meshinspector.github.io/ReportIssue/)
 
