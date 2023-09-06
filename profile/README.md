@@ -1,8 +1,13 @@
-![image](https://github.com/MeshInspector/.github/assets/140729402/5aebb343-b37e-4c27-8ed8-39ccee0e75f4)![image](https://github.com/MeshInspector/.github/assets/140729402/9bd140e0-9c09-4577-8ffe-87678003d4ed)![image](https://github.com/MeshInspector/.github/assets/140729402/28cbe352-f106-4aec-ba25-24c2e46d5b0d)![image](https://github.com/MeshInspector/.github/assets/140729402/37b6c8e5-8bff-4f67-b16b-bed7a0267950)![image](https://github.com/MeshInspector/.github/assets/140729402/b1f82bcc-677b-4d91-a0df-6a1c4701dd94)![image](https://github.com/MeshInspector/.github/assets/140729402/f29b0458-fb76-4eba-9ed6-fbee477afbaf)![MeshInspector/MeshLib](https://user-images.githubusercontent.com/10034350/176395489-6349670a-b9eb-4f53-886a-35a75b55e6ac.png)
+![MeshInspector/MeshLib](https://user-images.githubusercontent.com/10034350/176395489-6349670a-b9eb-4f53-886a-35a75b55e6ac.png)
 # Welcome to MeshInspector
-3D scanning is becoming more and more ubiquitous. Robotic automation, self-driving cars and multitude of other industrial, medical and scientific applications require advanced computer vision to deliver the levels of automation customers expect these days. The great rise of AI gave another boost to computer vision and the need to utilize 3D data to make machines smarter. Not only are tasks at hand becoming more complex, but the size of data grows exponentially. 
+The MeshInspector application is a cutting-edge tool for diverse 3D data types, like point clouds, CT scans, meshes, voxel data, and polylines. This all-in-one tool offers a modern, intuitive interface, ensuring efficient 3D data handling. It's lightning-fast, supports all platforms, and is browser-accessible. Ideal for 3D scanning and printing industry experts, engineers, and scientists, MeshInspector is your essential tool.
 
-There is a multitude of general purpose libraries which deal with 3D data. Some stem from popular CAD packages, some are open source. The commercial ones tend to be quite expensive while open source are free though tend to be limited in functionality provided. Also those libraries value generality above other features  to allow maximum number of applications, but with the growing amounts of 3D data, performance is critical as it never has  been. Some of it can be addressed by using the scale of a commercial cloud, last generation CPU or GPU but underlying complexity of data representation makes it very hard and laborsome.
+Experience the advantages of MeshInspector:
+- Rapidly convert massive point clouds (over 1GB in size) into optimized meshes, achieving a 10x speed boost.
+- Easily employ manual repair tools or automatically repair low-quality meshes in seconds.
+- Effectively handle CT or MRI scans with high-quality volume rendering, isolate components by density, segment them, and convert them into meshes for advanced processing.
+
+MeshInspector is an all-in-one tool built upon the robust open-source MeshLib 3D processing library. With MeshInspector, you can take your 3D data analysis to the next level and unlock new insights into your work.
 
  - [MeshLib](#meshlib) 3d processing library
  - [MeshInspector](#meshinspector) 3d processing application, based on MeshLib
@@ -150,7 +155,7 @@ This list is not full and updating each day
 ### Performance
  - Fast drawing up to 20+M triangles,
  - Hardware-accelerated object picker (finding triangle or point under the cursor).
- - 
+
 ### Viewport camera modes
  - Perspective and Orthographic (Perspective / orthographic view, FOV, Basis / axis, etc)
  - Customize drawing of objects (Components visibility, Transparent, Clipping, Colors, etc.)
@@ -160,10 +165,12 @@ This list is not full and updating each day
    - Lines,
    - Voxels
    - Distance Maps
+     
 ### Color and textures 
  - Vertices color map,
  - Triangles color map,
  - Static textures.
+
 ### Order independent transparency
 ### Convenient for mesh algorithms debugging, showing mesh edges, boundaries
 ### Computed-tomography reconstruction
