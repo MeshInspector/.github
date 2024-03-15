@@ -19,7 +19,7 @@ MeshInspector is an all-in-one tool built upon the robust open-source MeshLib 3D
 
 [Download MeshInspector (Windows/Linux/Mac)](https://meshinspector.com/download/)
 
-[MeshLib Documentation](https://meshlib.meshinspector.com/documentation/)
+[MeshLib Documentation](https://meshinspector.com/MeshLib/doc)
 
 [Submit an issue](https://meshinspector.github.io/ReportIssue/)
 
@@ -132,7 +132,7 @@ This list is not full and updating each day
 - Architecture allows users to easily provide their own custom functionality
 - Simple interface for python binding gives the opportunity to develop MeshLib-based python modules
 - Flexible and customizable UI
-- Detailed library API documentation is located [here](https://meshlib.meshinspector.com/documentation/)
+- Detailed library API documentation is located [here](https://meshinspector.com/MeshLib/doc)
 
 ### Third parties: Core
 - Windows 10. vcpkg - package manager.
