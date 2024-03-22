@@ -1,4 +1,4 @@
-![MeshInspector/MeshLib](http://meshinspector.com/wp-content/uploads/2024/03/Mesh-Processing-Library.png)
+![MeshInspector/MeshLib](http://meshinspector.com/wp-content/uploads/2024/03/3D-mesh-processing-library.png)
 # Welcome to MeshInspector
  MeshInspector is a versatile software designed for fast mesh repair, transforming 3D scans into solid models, and facilitating quality inspection. This all-in-one tool offers a modern, intuitive interface, ensuring efficient 3D data handling. It's lightning-fast, supports all platforms, and is browser-accessible. The MeshInspector supports 3D data types, like meshes, point clouds, CT scans, voxel data, distance maps, and polylines.
 
@@ -105,7 +105,7 @@ When designing MeshLib, we valued simplicity and performance while providing a w
 # MeshInspector
 [MeshInspector](https://github.com/MeshInspector/MeshInspector) is a software for 3D geometry processing powered by [MeshLib](https://github.com/MeshInspector/MeshLib).
 
-![image](https://meshinspector.com/wp-content/uploads/2024/02/Features-images-1-1536x864.png)
+![image](http://meshinspector.com/wp-content/uploads/2024/03/MeshInspector-software.png)
 The application provides:
 - Customizable menu window
 - Stable and user-friendly viewer
