@@ -1,16 +1,13 @@
-![MeshInspector/MeshLib](https://user-images.githubusercontent.com/10034350/176395489-6349670a-b9eb-4f53-886a-35a75b55e6ac.png)
+![MeshInspector/MeshLib](http://meshinspector.com/wp-content/uploads/2024/03/Mesh-Processing-Library.png)
 # Welcome to MeshInspector
-The MeshInspector application is a cutting-edge tool for diverse 3D data types, like point clouds, CT scans, meshes, voxel data, and polylines. This all-in-one tool offers a modern, intuitive interface, ensuring efficient 3D data handling. It's lightning-fast, supports all platforms, and is browser-accessible. Ideal for 3D scanning and printing industry experts, engineers, and scientists, MeshInspector is your essential tool.
+ MeshInspector is a versatile software designed for fast mesh repair, transforming 3D scans into solid models, and facilitating quality inspection. This all-in-one tool offers a modern, intuitive interface, ensuring efficient 3D data handling. It's lightning-fast, supports all platforms, and is browser-accessible. The MeshInspector supports 3D data types, like meshes, point clouds, CT scans, voxel data, distance maps, and polylines.
 
-Experience the advantages of MeshInspector:
-- Rapidly convert massive point clouds (over 1GB in size) into optimized meshes, achieving a 10x speed boost.
-- Easily employ manual repair tools or automatically repair low-quality meshes in seconds.
-- Effectively handle CT or MRI scans with high-quality volume rendering, isolate components by density, segment them, and convert them into meshes for advanced processing.
+MeshInspector can be applied to 3D printing, scan to as-built models conversion GIS&BIM, digital dentistry, CT/ MRI scans to mesh transformation, and scan/CAD compare.
 
-MeshInspector is an all-in-one tool built upon the robust open-source MeshLib 3D processing library. With MeshInspector, you can take your 3D data analysis to the next level and unlock new insights into your work.
+MeshInspector is built upon the robust open-source 3D mesh processing library MeshLib SDK. It is free from legacy code and is created using optimized and fast algorithms, which help achieve up to 2x faster data processing performance.
 
- - [MeshLib](#meshlib) 3d processing library
- - [MeshInspector](#meshinspector) 3d processing application, based on MeshLib
+ - [MeshLib](#meshlib) 3d mesh processing library
+ - [MeshInspector](#meshinspector) 3d processing software, powered by MeshLib
 
 # Useful links
 [MeshInspector website](https://meshinspector.com/)
@@ -19,17 +16,19 @@ MeshInspector is an all-in-one tool built upon the robust open-source MeshLib 3D
 
 [Download MeshInspector (Windows/Linux/Mac)](https://meshinspector.com/download/)
 
+[MeshLib website](https://meshlib.meshinspector.com/)
+
 [MeshLib Documentation](https://meshlib.meshinspector.com/documentation/)
 
 [Submit an issue](https://meshinspector.github.io/ReportIssue/)
 
 # MeshLib
-[MeshLib](https://github.com/MeshInspector/MeshLib) is open source 3d procesing library.
+[MeshLib](https://github.com/MeshInspector/MeshLib) is an Open-source 3D geometry library that enables you to seamlessly create powerful 3D applications and perform advanced operations with ease using either C++ or Python.
 
-The goal which we set when designing MeshLib was to value simplicity and performance while providing a wide gamut of useful computational algorithms. The library also supports the most important data structures today’s sensors can produce - pointcloud, mesh, volume and more. For example, mesh is represented by half-edge data structure and cannot be made non-manifold. Some applications may require non-manifoldness, but most practical scans can be represented as manifoldness meshes without an issue. 
+When designing MeshLib, we valued simplicity and performance while providing a wide gamut of useful computational algorithms. The library also supports the most important data structures today’s sensors can produce—point cloud, mesh, volume, and more. For example, a mesh is represented by a half-edge data structure and cannot be made non-manifold. Some applications may require non-manifoldness, but most practical scans can be represented as manifoldness meshes without an issue. 
 
-## Some features
-This list is not full and updating each day
+## Features
+[Overview](https://meshlib.meshinspector.com/features-meshlib/)
 ### Math basics
  - Math primitives and operations support (Vectors 2D, 3D, 4D; Lines; Planes; Bounding Boxes; Matrices; Affine transformations; Quaternions; Histograms; etc.)
 ### 3D data handling, creation, modification
@@ -43,7 +42,7 @@ This list is not full and updating each day
    - Mesh to Voxel conversion,
    - Voxel To Mesh conversion.
  - Deformations
-   - Laplassian deformation,
+   - Laplacian deformation,
    - Freeform deformation,
    - Relax, mesh smoothing,
    - Position Verts Smoothly, arrangement of vertices in accordance with the gradient along the neighbors.
@@ -61,7 +60,7 @@ This list is not full and updating each day
    - Boolean ops on meshes via voxels. Efficient but not so accurate as explicit mesh operations.
    - Explicit mesh boolean ops, very exact, fast and accurate.
 ### 3D Data problems fixing
- - Fixing holes in mesh
+ - Fixing holes in the mesh
    - Holes stitching (removing two holes by stitching their boundaries) 
    - Hole filling,
    - Holes fixing metrics
@@ -82,7 +81,7 @@ This list is not full and updating each day
  - Intersection
    - Intersection of a ray with a mesh,
    - Intersection of a plane with a mesh, result is a contour,
-   - Finding a contour representing intersection of two meshes, meshes remain unchanged,
+   - Finding a contour representing the intersection of two meshes, meshes remain unchanged,
  - Distance
    - Distance from a point to a mesh,
    - Minimal distance between two meshes,
@@ -104,9 +103,9 @@ This list is not full and updating each day
    - Point to plane.
 
 # MeshInspector
-[MeshInspector](https://github.com/MeshInspector/MeshInspector) is an application for geometry processing based on [MeshLib](https://github.com/MeshInspector/MeshLib).
+[MeshInspector](https://github.com/MeshInspector/MeshInspector) is a software for 3D geometry processing powered by [MeshLib](https://github.com/MeshInspector/MeshLib).
 
-![image](https://user-images.githubusercontent.com/3136125/153055383-a86e9e4f-f260-476c-af5e-c5e28e7a1632.png)
+![image](https://meshinspector.com/wp-content/uploads/2024/02/Features-images-1-1536x864.png)
 The application provides:
 - Customizable menu window
 - Stable and user-friendly viewer
@@ -122,15 +121,15 @@ The application provides:
 - Supporting search and tooltip
 
 ## Features
-[Overview](https://meshinspector.com/features-overview)
-This list is not full and updating each day
+[Overview](https://meshinspector.com/features/)
+This list is not full and is updated each day.
 
 ## Developer Features
 - Support for most popular operating systems: Windows, MacOS X, Linux Ubuntu (Debian branch), Linux Fedora (RedHat branch)
 - Has an installer for Windows/MacOS X and packages for Linux
-- Code is clear and safe. Project could be built by Visual Studio 2019, gcc 10+, clang 11+
-- Architecture allows users to easily provide their own custom functionality
-- Simple interface for python binding gives the opportunity to develop MeshLib-based python modules
+- Code is clear and safe. A project could be built by Visual Studio 2019, gcc 10+, clang 11+
+- Architecture allows users to provide their own custom functionality easily
+- Simple interface for Python binding gives the opportunity to develop MeshLib-based Python modules
 - Flexible and customizable UI
 - Detailed library API documentation is located [here](https://meshlib.meshinspector.com/documentation/)
 
