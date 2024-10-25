@@ -16,7 +16,7 @@ MeshInspector is built upon the robust open-source 3D mesh processing library Me
 
 [Download MeshInspector (Windows/Linux/Mac)](https://meshinspector.com/download/)
 
-[MeshLib website](https://meshlib.meshinspector.com/)
+[MeshLib website](https://meshlib.io/)
 
 [MeshLib Documentation](https://doc.meshinspector.com/)
 
@@ -28,7 +28,7 @@ MeshInspector is built upon the robust open-source 3D mesh processing library Me
 When designing MeshLib, we valued simplicity and performance while providing a wide gamut of useful computational algorithms. The library also supports the most important data structures today’s sensors can produce—point cloud, mesh, volume, and more. For example, a mesh is represented by a half-edge data structure and cannot be made non-manifold. Some applications may require non-manifoldness, but most practical scans can be represented as manifoldness meshes without an issue. 
 
 ## Features
-[Overview](https://meshlib.meshinspector.com/features-meshlib/)
+[Overview](https://meshlib.io/features-meshlib/)
 ### Math basics
  - Math primitives and operations support (Vectors 2D, 3D, 4D; Lines; Planes; Bounding Boxes; Matrices; Affine transformations; Quaternions; Histograms; etc.)
 ### 3D data handling, creation, modification
