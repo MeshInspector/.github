@@ -18,7 +18,7 @@ MeshInspector is built upon the robust open-source 3D mesh processing library Me
 
 [MeshLib website](https://meshlib.io/)
 
-[MeshLib Documentation](https://doc.meshinspector.com/)
+[MeshLib Documentation](https://meshlib.io/documentation/)
 
 [Submit an issue](https://meshinspector.github.io/ReportIssue/)
 
@@ -131,7 +131,7 @@ This list is not full and is updated each day.
 - Architecture allows users to provide their own custom functionality easily
 - Simple interface for Python binding gives the opportunity to develop MeshLib-based Python modules
 - Flexible and customizable UI
-- Detailed library API documentation is located [here](https://doc.meshinspector.com/)
+- Detailed library API documentation is located [here](https://meshlib.io/documentation/)
 
 ### Third parties: Core
 - Windows 10. vcpkg - package manager.
