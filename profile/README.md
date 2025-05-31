@@ -136,7 +136,7 @@ This list is not full and is updated each day.
 ### Third parties: Core
 - Windows 10. vcpkg - package manager.
 - Math. eigen3 - linear algebra.
-- C++. boost C++ libraries (pre-standart library). tlexpected - tiny error handler. parallel- hashmap - high performance hashmaps.
+- C++. boost C++ libraries (pre-standard library). tlexpected - tiny error handler. parallel-hashmap - high performance hashmaps.
 - Python. pybind11 and cpython - C++ exposers.
 - Testing. gtest - google test tools.
 
