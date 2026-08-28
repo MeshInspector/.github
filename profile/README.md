@@ -16,9 +16,9 @@ MeshInspector is built entirely on MeshLib, so every algorithm you see in the UI
 ## What we are good at
 
 - **Geometry algorithms engineered to revolutionize.** We help software engineers process, repair, measure and optimize 3D data with next-generation algorithms, reducing development time and costs.
-- **Manifold by construction.** A half-edge data structure that cannot represent a broken mesh, so topology errors surface immediately instead of three pipeline stages later.
+- **Manifold by construction.** A half-edge data structure in which most non-manifold situations are simply not representable, so topology errors surface where they happen instead of three pipeline stages later.
 - **One engine, five languages.** The same algorithms and the same results on the desktop, on a server, and in the browser.
-- **Measured performance.** Our public boolean benchmark compares MeshLib against nine libraries on 2M-triangle models — [method and data](https://meshlib.io/blog/comparing-3d-boolean-libraries/). The [simplification benchmark](https://meshlib.io/blog/comparing-3d-simplification-libraries/) does the same across 11 libraries.
+- **Measured performance.** Our public boolean benchmark compares MeshLib across nine libraries on 2M-triangle models — [method and data](https://meshlib.io/blog/comparing-3d-boolean-libraries/). The [simplification benchmark](https://meshlib.io/blog/comparing-3d-simplification-libraries/) does the same across 11 libraries.
 - **Proven in regulated workflows.** [SmileInspector](https://smileinspector.io/), our [FDA-cleared](https://smileinspector.io/news/smileinspector-launches-after-fda-clearance/) clear-aligner platform, runs on the same engine.
 - **25+ years** in 3D geometry, 100+ engineers, and a support team that answers.
 
